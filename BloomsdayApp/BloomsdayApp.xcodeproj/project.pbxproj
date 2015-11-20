@@ -18,6 +18,9 @@
 		AF49ACE01BFD5004008AA07B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49ACDF1BFD5004008AA07B /* FBSDKCoreKit.framework */; };
 		AF49ACE21BFD5058008AA07B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49ACE11BFD5058008AA07B /* FBSDKLoginKit.framework */; };
 		AF49ACE41BFD5093008AA07B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49ACE31BFD5093008AA07B /* FBSDKShareKit.framework */; };
+		CB5810C91BFEE2E900185698 /* Contacts-25.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5810C71BFEE2E900185698 /* Contacts-25.png */; };
+		CB5810CA1BFEE2E900185698 /* Settings-25.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5810C81BFEE2E900185698 /* Settings-25.png */; };
+		CB5810CC1BFEE36E00185698 /* Geo-fence-25.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5810CB1BFEE36E00185698 /* Geo-fence-25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		AF49ACE11BFD5058008AA07B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		AF49ACE31BFD5093008AA07B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		AF49ACE71BFD5AEE008AA07B /* BloomsdayApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BloomsdayApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB5810C71BFEE2E900185698 /* Contacts-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Contacts-25.png"; path = "../../../../Downloads/Contacts-25.png"; sourceTree = "<group>"; };
+		CB5810C81BFEE2E900185698 /* Settings-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings-25.png"; path = "../../../../Downloads/Settings-25.png"; sourceTree = "<group>"; };
+		CB5810CB1BFEE36E00185698 /* Geo-fence-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Geo-fence-25.png"; path = "../../../../Downloads/Geo-fence-25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 				AF49ACE71BFD5AEE008AA07B /* BloomsdayApp-Bridging-Header.h */,
 				AF49ACA71BFD42EC008AA07B /* ViewController.swift */,
 				AF49ACA91BFD42EC008AA07B /* Main.storyboard */,
+				CB5810CB1BFEE36E00185698 /* Geo-fence-25.png */,
+				CB5810C71BFEE2E900185698 /* Contacts-25.png */,
+				CB5810C81BFEE2E900185698 /* Settings-25.png */,
 				AF49ACAF1BFD42EC008AA07B /* Assets.xcassets */,
 				AF49ACB11BFD42EC008AA07B /* LaunchScreen.storyboard */,
 				AF49ACB41BFD42EC008AA07B /* Info.plist */,
@@ -218,6 +227,7 @@
 				TargetAttributes = {
 					AF49ACA11BFD42EC008AA07B = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Y9V9TQVG6Z;
 					};
 					AF49ACB81BFD42EC008AA07B = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -255,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF49ACB31BFD42EC008AA07B /* LaunchScreen.storyboard in Resources */,
+				CB5810C91BFEE2E900185698 /* Contacts-25.png in Resources */,
 				AF49ACB01BFD42EC008AA07B /* Assets.xcassets in Resources */,
 				AF49ACAB1BFD42EC008AA07B /* Main.storyboard in Resources */,
+				CB5810CC1BFEE36E00185698 /* Geo-fence-25.png in Resources */,
+				CB5810CA1BFEE2E900185698 /* Settings-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +436,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151111",
@@ -431,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "BloomsdayApp/BloomsdayApp-Bridging-Header.h";
 			};
 			name = Debug;
@@ -439,6 +455,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151111",
@@ -447,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "BloomsdayApp/BloomsdayApp-Bridging-Header.h";
 			};
 			name = Release;
@@ -518,6 +537,7 @@
 				AF49ACCF1BFD42EC008AA07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF49ACD01BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayAppTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +546,7 @@
 				AF49ACD21BFD42EC008AA07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF49ACD31BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +555,7 @@
 				AF49ACD51BFD42EC008AA07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
