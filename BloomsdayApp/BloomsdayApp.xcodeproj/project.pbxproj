@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF49ACA61BFD42EC008AA07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49ACA51BFD42EC008AA07B /* AppDelegate.swift */; };
+		AF49ACA81BFD42EC008AA07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49ACA71BFD42EC008AA07B /* ViewController.swift */; };
+		AF49ACAB1BFD42EC008AA07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF49ACA91BFD42EC008AA07B /* Main.storyboard */; };
+		AF49ACAE1BFD42EC008AA07B /* BloomsdayApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF49ACAC1BFD42EC008AA07B /* BloomsdayApp.xcdatamodeld */; };
+		AF49ACB01BFD42EC008AA07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF49ACAF1BFD42EC008AA07B /* Assets.xcassets */; };
+		AF49ACB31BFD42EC008AA07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF49ACB11BFD42EC008AA07B /* LaunchScreen.storyboard */; };
+		AF49ACBE1BFD42EC008AA07B /* BloomsdayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49ACBD1BFD42EC008AA07B /* BloomsdayAppTests.swift */; };
+		AF49ACC91BFD42EC008AA07B /* BloomsdayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49ACC81BFD42EC008AA07B /* BloomsdayAppUITests.swift */; };
+		AF49ACE01BFD5004008AA07B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49ACDF1BFD5004008AA07B /* FBSDKCoreKit.framework */; };
+		AF49ACE21BFD5058008AA07B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49ACE11BFD5058008AA07B /* FBSDKLoginKit.framework */; };
+		AF49ACE41BFD5093008AA07B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49ACE31BFD5093008AA07B /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF49ACBA1BFD42EC008AA07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF49AC9A1BFD42EC008AA07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF49ACA11BFD42EC008AA07B;
+			remoteInfo = BloomsdayApp;
+		};
+		AF49ACC51BFD42EC008AA07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF49AC9A1BFD42EC008AA07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF49ACA11BFD42EC008AA07B;
+			remoteInfo = BloomsdayApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF49ACA21BFD42EC008AA07B /* BloomsdayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomsdayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF49ACA51BFD42EC008AA07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF49ACA71BFD42EC008AA07B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF49ACAA1BFD42EC008AA07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF49ACAD1BFD42EC008AA07B /* BloomsdayApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BloomsdayApp.xcdatamodel; sourceTree = "<group>"; };
+		AF49ACAF1BFD42EC008AA07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF49ACB21BFD42EC008AA07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF49ACB41BFD42EC008AA07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF49ACB91BFD42EC008AA07B /* BloomsdayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomsdayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF49ACBD1BFD42EC008AA07B /* BloomsdayAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomsdayAppTests.swift; sourceTree = "<group>"; };
+		AF49ACBF1BFD42EC008AA07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF49ACC41BFD42EC008AA07B /* BloomsdayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomsdayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF49ACC81BFD42EC008AA07B /* BloomsdayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomsdayAppUITests.swift; sourceTree = "<group>"; };
+		AF49ACCA1BFD42EC008AA07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF49ACDF1BFD5004008AA07B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		AF49ACE11BFD5058008AA07B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		AF49ACE31BFD5093008AA07B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		AF49ACE71BFD5AEE008AA07B /* BloomsdayApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BloomsdayApp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF49AC9F1BFD42EC008AA07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49ACE21BFD5058008AA07B /* FBSDKLoginKit.framework in Frameworks */,
+				AF49ACE01BFD5004008AA07B /* FBSDKCoreKit.framework in Frameworks */,
+				AF49ACE41BFD5093008AA07B /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF49ACB61BFD42EC008AA07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF49ACC11BFD42EC008AA07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF49AC991BFD42EB008AA07B = {
+			isa = PBXGroup;
+			children = (
+				AF49ACA41BFD42EC008AA07B /* BloomsdayApp */,
+				AF49ACBC1BFD42EC008AA07B /* BloomsdayAppTests */,
+				AF49ACC71BFD42EC008AA07B /* BloomsdayAppUITests */,
+				AF49ACA31BFD42EC008AA07B /* Products */,
+				AF49ACD61BFD4ADE008AA07B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF49ACA31BFD42EC008AA07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF49ACA21BFD42EC008AA07B /* BloomsdayApp.app */,
+				AF49ACB91BFD42EC008AA07B /* BloomsdayAppTests.xctest */,
+				AF49ACC41BFD42EC008AA07B /* BloomsdayAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF49ACA41BFD42EC008AA07B /* BloomsdayApp */ = {
+			isa = PBXGroup;
+			children = (
+				AF49ACA51BFD42EC008AA07B /* AppDelegate.swift */,
+				AF49ACE71BFD5AEE008AA07B /* BloomsdayApp-Bridging-Header.h */,
+				AF49ACA71BFD42EC008AA07B /* ViewController.swift */,
+				AF49ACA91BFD42EC008AA07B /* Main.storyboard */,
+				AF49ACAF1BFD42EC008AA07B /* Assets.xcassets */,
+				AF49ACB11BFD42EC008AA07B /* LaunchScreen.storyboard */,
+				AF49ACB41BFD42EC008AA07B /* Info.plist */,
+				AF49ACAC1BFD42EC008AA07B /* BloomsdayApp.xcdatamodeld */,
+			);
+			path = BloomsdayApp;
+			sourceTree = "<group>";
+		};
+		AF49ACBC1BFD42EC008AA07B /* BloomsdayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF49ACBD1BFD42EC008AA07B /* BloomsdayAppTests.swift */,
+				AF49ACBF1BFD42EC008AA07B /* Info.plist */,
+			);
+			path = BloomsdayAppTests;
+			sourceTree = "<group>";
+		};
+		AF49ACC71BFD42EC008AA07B /* BloomsdayAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF49ACC81BFD42EC008AA07B /* BloomsdayAppUITests.swift */,
+				AF49ACCA1BFD42EC008AA07B /* Info.plist */,
+			);
+			path = BloomsdayAppUITests;
+			sourceTree = "<group>";
+		};
+		AF49ACD61BFD4ADE008AA07B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF49ACE11BFD5058008AA07B /* FBSDKLoginKit.framework */,
+				AF49ACDF1BFD5004008AA07B /* FBSDKCoreKit.framework */,
+				AF49ACE31BFD5093008AA07B /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF49ACA11BFD42EC008AA07B /* BloomsdayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF49ACCD1BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayApp" */;
+			buildPhases = (
+				AF49AC9E1BFD42EC008AA07B /* Sources */,
+				AF49AC9F1BFD42EC008AA07B /* Frameworks */,
+				AF49ACA01BFD42EC008AA07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomsdayApp;
+			productName = BloomsdayApp;
+			productReference = AF49ACA21BFD42EC008AA07B /* BloomsdayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF49ACB81BFD42EC008AA07B /* BloomsdayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF49ACD01BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayAppTests" */;
+			buildPhases = (
+				AF49ACB51BFD42EC008AA07B /* Sources */,
+				AF49ACB61BFD42EC008AA07B /* Frameworks */,
+				AF49ACB71BFD42EC008AA07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF49ACBB1BFD42EC008AA07B /* PBXTargetDependency */,
+			);
+			name = BloomsdayAppTests;
+			productName = BloomsdayAppTests;
+			productReference = AF49ACB91BFD42EC008AA07B /* BloomsdayAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF49ACC31BFD42EC008AA07B /* BloomsdayAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF49ACD31BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayAppUITests" */;
+			buildPhases = (
+				AF49ACC01BFD42EC008AA07B /* Sources */,
+				AF49ACC11BFD42EC008AA07B /* Frameworks */,
+				AF49ACC21BFD42EC008AA07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF49ACC61BFD42EC008AA07B /* PBXTargetDependency */,
+			);
+			name = BloomsdayAppUITests;
+			productName = BloomsdayAppUITests;
+			productReference = AF49ACC41BFD42EC008AA07B /* BloomsdayAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF49AC9A1BFD42EC008AA07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Senior Design";
+				TargetAttributes = {
+					AF49ACA11BFD42EC008AA07B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					AF49ACB81BFD42EC008AA07B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AF49ACA11BFD42EC008AA07B;
+					};
+					AF49ACC31BFD42EC008AA07B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AF49ACA11BFD42EC008AA07B;
+					};
+				};
+			};
+			buildConfigurationList = AF49AC9D1BFD42EC008AA07B /* Build configuration list for PBXProject "BloomsdayApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF49AC991BFD42EB008AA07B;
+			productRefGroup = AF49ACA31BFD42EC008AA07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF49ACA11BFD42EC008AA07B /* BloomsdayApp */,
+				AF49ACB81BFD42EC008AA07B /* BloomsdayAppTests */,
+				AF49ACC31BFD42EC008AA07B /* BloomsdayAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF49ACA01BFD42EC008AA07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49ACB31BFD42EC008AA07B /* LaunchScreen.storyboard in Resources */,
+				AF49ACB01BFD42EC008AA07B /* Assets.xcassets in Resources */,
+				AF49ACAB1BFD42EC008AA07B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF49ACB71BFD42EC008AA07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF49ACC21BFD42EC008AA07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF49AC9E1BFD42EC008AA07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49ACAE1BFD42EC008AA07B /* BloomsdayApp.xcdatamodeld in Sources */,
+				AF49ACA81BFD42EC008AA07B /* ViewController.swift in Sources */,
+				AF49ACA61BFD42EC008AA07B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF49ACB51BFD42EC008AA07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49ACBE1BFD42EC008AA07B /* BloomsdayAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF49ACC01BFD42EC008AA07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49ACC91BFD42EC008AA07B /* BloomsdayAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF49ACBB1BFD42EC008AA07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF49ACA11BFD42EC008AA07B /* BloomsdayApp */;
+			targetProxy = AF49ACBA1BFD42EC008AA07B /* PBXContainerItemProxy */;
+		};
+		AF49ACC61BFD42EC008AA07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF49ACA11BFD42EC008AA07B /* BloomsdayApp */;
+			targetProxy = AF49ACC51BFD42EC008AA07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF49ACA91BFD42EC008AA07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF49ACAA1BFD42EC008AA07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF49ACB11BFD42EC008AA07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF49ACB21BFD42EC008AA07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF49ACCB1BFD42EC008AA07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF49ACCC1BFD42EC008AA07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF49ACCE1BFD42EC008AA07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151111",
+				);
+				INFOPLIST_FILE = BloomsdayApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BloomsdayApp/BloomsdayApp-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		AF49ACCF1BFD42EC008AA07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151111",
+				);
+				INFOPLIST_FILE = BloomsdayApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BloomsdayApp/BloomsdayApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AF49ACD11BFD42EC008AA07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BloomsdayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloomsdayApp.app/BloomsdayApp";
+			};
+			name = Debug;
+		};
+		AF49ACD21BFD42EC008AA07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BloomsdayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloomsdayApp.app/BloomsdayApp";
+			};
+			name = Release;
+		};
+		AF49ACD41BFD42EC008AA07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BloomsdayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BloomsdayApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AF49ACD51BFD42EC008AA07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BloomsdayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.Bloomsday.BloomsdayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BloomsdayApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF49AC9D1BFD42EC008AA07B /* Build configuration list for PBXProject "BloomsdayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF49ACCB1BFD42EC008AA07B /* Debug */,
+				AF49ACCC1BFD42EC008AA07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF49ACCD1BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF49ACCE1BFD42EC008AA07B /* Debug */,
+				AF49ACCF1BFD42EC008AA07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF49ACD01BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF49ACD11BFD42EC008AA07B /* Debug */,
+				AF49ACD21BFD42EC008AA07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF49ACD31BFD42EC008AA07B /* Build configuration list for PBXNativeTarget "BloomsdayAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF49ACD41BFD42EC008AA07B /* Debug */,
+				AF49ACD51BFD42EC008AA07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF49ACAC1BFD42EC008AA07B /* BloomsdayApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF49ACAD1BFD42EC008AA07B /* BloomsdayApp.xcdatamodel */,
+			);
+			currentVersion = AF49ACAD1BFD42EC008AA07B /* BloomsdayApp.xcdatamodel */;
+			path = BloomsdayApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF49AC9A1BFD42EC008AA07B /* Project object */;
+}
